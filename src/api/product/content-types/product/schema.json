@@ -1,0 +1,117 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "brand": {
+      "type": "string"
+    },
+    "img1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "img2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "img3": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "img4": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "text"
+    },
+    "priceOriginal": {
+      "type": "biginteger"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "favorite": {
+      "type": "boolean",
+      "default": false
+    },
+    "details": {
+      "type": "text"
+    },
+    "screenSize": {
+      "type": "decimal"
+    },
+    "mainCamera": {
+      "type": "string"
+    },
+    "fontCamera": {
+      "type": "integer"
+    },
+    "batteryCapacity": {
+      "type": "biginteger"
+    },
+    "screenDiagonal": {
+      "type": "decimal"
+    },
+    "theScreenResolution": {
+      "type": "string"
+    },
+    "theScreenRefreshRate": {
+      "type": "biginteger"
+    },
+    "thePixelDensity": {
+      "type": "biginteger"
+    },
+    "screenType": {
+      "type": "string"
+    },
+    "additionally": {
+      "type": "text"
+    },
+    "cpu": {
+      "type": "string"
+    },
+    "numberOfCores": {
+      "type": "integer"
+    },
+    "protectionClass": {
+      "type": "string"
+    },
+    "memory": {
+      "type": "biginteger"
+    }
+  }
+}
